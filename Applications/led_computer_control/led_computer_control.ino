@@ -1,6 +1,6 @@
 void setup() {
   // put your setup code here, to run once:
-  pinMode(13,OUTPUT);
+  pinMode(12,OUTPUT);
   Serial.begin(9600);
 
 }
@@ -10,10 +10,10 @@ void loop() {
   if (Serial.available()){
     int state = Serial.parseInt();
     if (state==1){
-    digitalWrite(13,HIGH);
+    digitalWrite(12,HIGH);
     }
     else if (state==2){
-      digitalWrite(13,LOW);
+      digitalWrite(12,LOW);
     }
   }
   
