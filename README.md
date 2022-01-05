@@ -1,5 +1,5 @@
 # CESE robotic course
-This repository will contain robotics training material
+This repository will contain robotics training material.<br />
 Repository tree:
  * Applications : you will find Arduino program file and schema of each application<br />
     - DHT11 : get temperature and humidity and put them send them to computer serial monitor<br />
